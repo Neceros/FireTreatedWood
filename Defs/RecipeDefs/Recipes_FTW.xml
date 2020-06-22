@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	
+	<RecipeDef>
+    <defName>Make_TreatedWoodNeolithic</defName>
+    <label>make fire treated wood</label>
+    <description>Make fire treated wood.</description>
+    <jobString>Making fire treated wood.</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <effectWorking>Cremate</effectWorking>
+    <soundWorking>Recipe_Cremate</soundWorking>
+    <workAmount>240</workAmount>
+    <recipeUsers>
+      <li>Campfire</li>
+    </recipeUsers>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>WoodLog</li>
+          </thingDefs>
+        </filter>
+        <count>25</count>
+      </li>
+      <li>
+        <filter>
+          <categories>
+            <li>BodyPartsNatural</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>BodyPartsNatural</li>
+      </categories>
+    </fixedIngredientFilter>
+    <products>
+      <TreatedWoodLog>20</TreatedWoodLog>
+    </products>
+    <workSkill>Crafting</workSkill>
+  </RecipeDef>
+
+  <RecipeDef>
+    <defName>Make_TreatedWood</defName>
+    <label>make fire treated wood</label>
+    <description>Make fire treated wood.</description>
+    <jobString>Making fire treated wood.</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <effectWorking>Cremate</effectWorking>
+    <soundWorking>Recipe_Cremate</soundWorking>
+    <workAmount>340</workAmount>
+    <recipeUsers>
+      <li>BiofuelRefinery</li>
+    </recipeUsers>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>WoodLog</li>
+          </thingDefs>
+        </filter>
+        <count>25</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Chemfuel</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>WoodLog</li>
+        <li>Chemfuel</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <TreatedWoodLog>25</TreatedWoodLog>
+    </products>
+    <workSkill>Crafting</workSkill>
+    <researchPrerequisite>Research_FireTreatedWood</researchPrerequisite>
+  </RecipeDef>
+
+  <RecipeDef>
+    <defName>Make_TreatedWoodBulk</defName>
+    <label>make bulk fire treated wood</label>
+    <description>Make bulk fire treated wood.</description>
+    <jobString>Making fire treated wood in bulk.</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <effectWorking>Cremate</effectWorking>
+    <soundWorking>Recipe_Cremate</soundWorking>
+    <workAmount>600</workAmount>
+    <recipeUsers>
+      <li>BiofuelRefinery</li>
+    </recipeUsers>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>WoodLog</li>
+          </thingDefs>
+        </filter>
+        <count>100</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Chemfuel</li>
+          </thingDefs>
+        </filter>
+        <count>10</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>WoodLog</li>
+        <li>Chemfuel</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <TreatedWoodLog>100</TreatedWoodLog>
+    </products>
+    <workSkill>Crafting</workSkill>
+    <researchPrerequisite>Research_FireTreatedWood</researchPrerequisite>
+  </RecipeDef>
+
+
+</Defs>
