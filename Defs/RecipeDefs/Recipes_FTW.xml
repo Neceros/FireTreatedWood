@@ -9,7 +9,7 @@
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
     <effectWorking>Cremate</effectWorking>
     <soundWorking>Recipe_Cremate</soundWorking>
-    <workAmount>240</workAmount>
+    <workAmount>1000</workAmount>
     <recipeUsers>
       <li>Campfire</li>
     </recipeUsers>
@@ -22,20 +22,7 @@
         </filter>
         <count>25</count>
       </li>
-      <li>
-        <filter>
-          <categories>
-            <li>BodyPartsNatural</li>
-          </categories>
-        </filter>
-        <count>1</count>
-      </li>
     </ingredients>
-    <fixedIngredientFilter>
-      <categories>
-        <li>BodyPartsNatural</li>
-      </categories>
-    </fixedIngredientFilter>
     <products>
       <TreatedWoodLog>20</TreatedWoodLog>
     </products>
@@ -50,7 +37,7 @@
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
     <effectWorking>Cremate</effectWorking>
     <soundWorking>Recipe_Cremate</soundWorking>
-    <workAmount>340</workAmount>
+    <workAmount>1000</workAmount>
     <recipeUsers>
       <li>BiofuelRefinery</li>
     </recipeUsers>
@@ -63,21 +50,7 @@
         </filter>
         <count>25</count>
       </li>
-      <li>
-        <filter>
-          <thingDefs>
-            <li>Chemfuel</li>
-          </thingDefs>
-        </filter>
-        <count>5</count>
-      </li>
     </ingredients>
-    <fixedIngredientFilter>
-      <thingDefs>
-        <li>WoodLog</li>
-        <li>Chemfuel</li>
-      </thingDefs>
-    </fixedIngredientFilter>
     <products>
       <TreatedWoodLog>25</TreatedWoodLog>
     </products>
@@ -93,7 +66,7 @@
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
     <effectWorking>Cremate</effectWorking>
     <soundWorking>Recipe_Cremate</soundWorking>
-    <workAmount>600</workAmount>
+    <workAmount>2000</workAmount>
     <recipeUsers>
       <li>BiofuelRefinery</li>
     </recipeUsers>
@@ -106,21 +79,7 @@
         </filter>
         <count>100</count>
       </li>
-      <li>
-        <filter>
-          <thingDefs>
-            <li>Chemfuel</li>
-          </thingDefs>
-        </filter>
-        <count>10</count>
-      </li>
     </ingredients>
-    <fixedIngredientFilter>
-      <thingDefs>
-        <li>WoodLog</li>
-        <li>Chemfuel</li>
-      </thingDefs>
-    </fixedIngredientFilter>
     <products>
       <TreatedWoodLog>100</TreatedWoodLog>
     </products>
